@@ -13,10 +13,17 @@ For this assignment you will follow the instructions at the above link to:
 - In your play directory, create four files. Make it so that: one is untracked; one is modified; one is staged; one is in the repo. Verify the state of your four files and ask another person to confirm you have those four files in four states.
 
 In this space, type the sequence of commands you used to achieve the final state of all four files:
-
-
-
-
+touch a.txt
+touch b.txt
+touch c.txt
+touch d.txt
+git add a.txt
+git add b.txt
+git commit *.txt -m "first commit"
+cat << a.txt
+hello this is now edited
+git add c.txt
+git status
 %%%%%%%%%%%%%%% Working with GitHub %%%%%%%%%%%%%%%%%%%%%%
 
 - Create a Github account  (at www.github.com (Links to an external site.)), write down your username below.
